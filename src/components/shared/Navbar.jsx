@@ -3,7 +3,7 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 shadow-md">
+    <div className="navbar fixed z-50 text-white opacity-50 bg-black shadow-md">
       {/* Left Side - Logo */}
       <div className="navbar-start ">
         <Link to="/" className="btn btn-ghost normal-case text-xl">
