@@ -20,7 +20,7 @@ const Categories = () => {
         {menu
           .filter((item) => item.category === "popular")
           .map((menuItem) => (
-            <div className="bg-gray-400 px-2 py-2 mt-5" key={menuItem.id}>
+            <div className="bg-gray-100 px-2 py-2 mt-5 text-green-600" key={menuItem.id}>
               <h2>{menuItem.name}</h2>
             </div>
           ))}
