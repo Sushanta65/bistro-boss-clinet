@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Cover from '../shared/Cover';
 import menuImg from '../../assets/menu/banner3.jpg';
 import dessertImg from '../../assets/menu/dessert-bg.jpeg'
